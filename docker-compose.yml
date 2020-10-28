@@ -1,0 +1,8 @@
+version: "3.3"
+
+services:
+  skos-play:
+    build: .
+    container_name: skos-play
+    ports:
+      - "8080:8080"
